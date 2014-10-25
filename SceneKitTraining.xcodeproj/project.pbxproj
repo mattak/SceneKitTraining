@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD44A82819FAAAE400EF10EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A82719FAAAE400EF10EE /* AppDelegate.swift */; };
-		DD44A82A19FAAAE400EF10EE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A82919FAAAE400EF10EE /* GameView.swift */; };
-		DD44A82C19FAAAE400EF10EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A82B19FAAAE400EF10EE /* GameViewController.swift */; };
 		DD44A82E19FAAAE400EF10EE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44A82D19FAAAE400EF10EE /* art.scnassets */; };
 		DD44A83019FAAAE400EF10EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44A82F19FAAAE400EF10EE /* Images.xcassets */; };
 		DD44A83319FAAAE400EF10EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD44A83119FAAAE400EF10EE /* MainMenu.xib */; };
 		DD44A83F19FAAAE400EF10EE /* SceneKitTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A83E19FAAAE400EF10EE /* SceneKitTrainingTests.swift */; };
+		DD44A84C19FAACE200EF10EE /* BasicObjectSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A84B19FAACE200EF10EE /* BasicObjectSceneController.swift */; };
+		DD44A84F19FAADBE00EF10EE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A84E19FAADBE00EF10EE /* BaseView.swift */; };
+		DD44A85219FB9B9400EF10EE /* BaseObjectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A85119FB9B9400EF10EE /* BaseObjectScene.swift */; };
+		DD44A88319FC1E9800EF10EE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A88219FC1E9800EF10EE /* GameView.swift */; };
+		DD44A88519FC1EB400EF10EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A88419FC1EB400EF10EE /* GameViewController.swift */; };
+		DD44A88719FC1ED700EF10EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44A88619FC1ED700EF10EE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +32,18 @@
 /* Begin PBXFileReference section */
 		DD44A82219FAAAE400EF10EE /* SceneKitTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD44A82619FAAAE400EF10EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD44A82719FAAAE400EF10EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD44A82919FAAAE400EF10EE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		DD44A82B19FAAAE400EF10EE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DD44A82D19FAAAE400EF10EE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		DD44A82F19FAAAE400EF10EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD44A83219FAAAE400EF10EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DD44A83819FAAAE400EF10EE /* SceneKitTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneKitTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD44A83D19FAAAE400EF10EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD44A83E19FAAAE400EF10EE /* SceneKitTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitTrainingTests.swift; sourceTree = "<group>"; };
+		DD44A84B19FAACE200EF10EE /* BasicObjectSceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicObjectSceneController.swift; sourceTree = "<group>"; };
+		DD44A84E19FAADBE00EF10EE /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DD44A85119FB9B9400EF10EE /* BaseObjectScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseObjectScene.swift; sourceTree = "<group>"; };
+		DD44A88219FC1E9800EF10EE /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DD44A88419FC1EB400EF10EE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DD44A88619FC1ED700EF10EE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,10 @@
 		DD44A82419FAAAE400EF10EE /* SceneKitTraining */ = {
 			isa = PBXGroup;
 			children = (
-				DD44A82719FAAAE400EF10EE /* AppDelegate.swift */,
-				DD44A82919FAAAE400EF10EE /* GameView.swift */,
-				DD44A82B19FAAAE400EF10EE /* GameViewController.swift */,
 				DD44A82D19FAAAE400EF10EE /* art.scnassets */,
 				DD44A82F19FAAAE400EF10EE /* Images.xcassets */,
 				DD44A83119FAAAE400EF10EE /* MainMenu.xib */,
+				DD44A84A19FAACE200EF10EE /* Classes */,
 				DD44A82519FAAAE400EF10EE /* Supporting Files */,
 			);
 			path = SceneKitTraining;
@@ -113,6 +117,35 @@
 				DD44A83D19FAAAE400EF10EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD44A84A19FAACE200EF10EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD44A88619FC1ED700EF10EE /* AppDelegate.swift */,
+				DD44A84B19FAACE200EF10EE /* BasicObjectSceneController.swift */,
+				DD44A88419FC1EB400EF10EE /* GameViewController.swift */,
+				DD44A85019FB9B6800EF10EE /* Scene */,
+				DD44A84D19FAADA900EF10EE /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DD44A84D19FAADA900EF10EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD44A88219FC1E9800EF10EE /* GameView.swift */,
+				DD44A84E19FAADBE00EF10EE /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD44A85019FB9B6800EF10EE /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				DD44A85119FB9B9400EF10EE /* BaseObjectScene.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD44A82A19FAAAE400EF10EE /* GameView.swift in Sources */,
-				DD44A82C19FAAAE400EF10EE /* GameViewController.swift in Sources */,
-				DD44A82819FAAAE400EF10EE /* AppDelegate.swift in Sources */,
+				DD44A88719FC1ED700EF10EE /* AppDelegate.swift in Sources */,
+				DD44A84C19FAACE200EF10EE /* BasicObjectSceneController.swift in Sources */,
+				DD44A84F19FAADBE00EF10EE /* BaseView.swift in Sources */,
+				DD44A85219FB9B9400EF10EE /* BaseObjectScene.swift in Sources */,
+				DD44A88519FC1EB400EF10EE /* GameViewController.swift in Sources */,
+				DD44A88319FC1E9800EF10EE /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +441,7 @@
 				DD44A84419FAAAE400EF10EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD44A84519FAAAE400EF10EE /* Build configuration list for PBXNativeTarget "SceneKitTrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +450,7 @@
 				DD44A84719FAAAE400EF10EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
