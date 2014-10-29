@@ -19,6 +19,6 @@ class BasicObjectSceneController: NSViewController {
         self.baseView!.scene = scene
         self.baseView!.allowsCameraControl = true
         self.baseView!.showsStatistics = true
-        self.baseView!.backgroundColor = NSColor.blueColor()
+        self.baseView!.backgroundColor = NSColor.whiteColor()
     }
 }
